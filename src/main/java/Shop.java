@@ -10,15 +10,15 @@ public class Shop {
         this.shopItems = new ArrayList<ISell>();
     }
 
-    public ArrayList<ISell> getStock() {
+    public ArrayList<ISell> getShopItems() {
         return shopItems;
     }
 
-    public void addStock(ShopItem shopItem){
+    public void addShopItem(ShopItem shopItem){
         this.shopItems.add(shopItem);
     }
 
-    public void removeStock(ShopItem shopItem){
+    public void removeShopItem(ShopItem shopItem){
         this.shopItems.remove(shopItem);
     }
 

@@ -6,12 +6,12 @@ public abstract class Accessory extends ShopItem {
     private String description;
 
 
-    public Accessory(int boughtPrice, int sellPrice, String type){
+    public Accessory(int boughtPrice, int sellPrice, String description){
         super(boughtPrice, sellPrice);
-        this.description = type;
+        this.description = description;
     }
 
-    public String getType() {
+    public String getDescription() {
         return description;
     }
 }

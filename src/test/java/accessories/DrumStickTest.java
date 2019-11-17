@@ -15,6 +15,21 @@ public class DrumStickTest {
     }
 
     @Test
+    public void hasBoughtPrice(){
+        assertEquals(2, drumStick.getBoughtPrice());
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(3, drumStick.getSellPrice());
+    }
+
+    @Test
+    public void hasDescription(){
+        assertEquals("Drum Stick", drumStick.getDescription());
+    }
+
+    @Test
     public void canCalculateMarkup(){
         assertEquals(1, drumStick.calculateMarkup());
     }

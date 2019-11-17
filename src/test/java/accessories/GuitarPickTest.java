@@ -15,6 +15,21 @@ public class GuitarPickTest {
     }
 
     @Test
+    public void hasBoughtPrice(){
+        assertEquals(1, guitarPick.getBoughtPrice());
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(2, guitarPick.getSellPrice());
+    }
+
+    @Test
+    public void hasDescription(){
+        assertEquals("Guitar Pick", guitarPick.getDescription());
+    }
+
+    @Test
     public void canCalculateMarkup(){
         assertEquals(1, guitarPick.calculateMarkup());
     }
