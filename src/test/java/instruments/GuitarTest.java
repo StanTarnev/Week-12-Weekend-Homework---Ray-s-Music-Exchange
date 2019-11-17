@@ -47,7 +47,7 @@ public class GuitarTest {
     }
 
     @Test
-    public void hasNumberOfKeys(){
+    public void hasNumberOfStrings(){
         assertEquals(6, guitar.getNumberOfStrings());
     }
 
